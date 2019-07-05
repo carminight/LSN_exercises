@@ -1,0 +1,9 @@
+rm -rf ../Results/Solid/ave_epot*
+rm -rf ../Results/Solid/ave_pres*
+rm -rf ../Results/Solid/ave_etot*
+rm -rf ../Results/Solid/ave_ekin*
+rm -rf frames/*.xyz
+rm -rf seed.out
+rm -rf config.final
+rm -rf ../Results/Solid/output*
+rm -rf ../Results/Solid/ave_temp*
