@@ -13,10 +13,10 @@ int main (int argc, char *argv[]){
 	int NumberOfThrows = 20000;
 	int NumberOfBlocks = 100;
 
-	double _DistanceBetweenLines = 6.;
+	double DistanceBetweenLines = 6.;
 	double LengthOfNeedle = 4.;
 
-	Buffon Test(LengthOfNeedle,_DistanceBetweenLines);
+	Buffon Test(LengthOfNeedle,DistanceBetweenLines);
 	//VEttore che conterrà i risultati dell'esperimento
 	vector<double> pi_vector(NumberOfThrows,0);
 

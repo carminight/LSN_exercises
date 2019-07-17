@@ -678,8 +678,8 @@ double TravelingSalesman::MinimumDistance(void) {
 }
 
 //Metodo che restituisce il genitore con il percorso migliore di una run
-int* TravelingSalesman::BestWalk(void) {
-  int * best = new int[_NumberOfCities];
+int *TravelingSalesman::BestWalk(void) {
+  int *best = new int[_NumberOfCities];
   int index_min = min_element(_RememberBestDistance.begin(),_RememberBestDistance.end()) - _RememberBestDistance.begin();
   for(int i = 0; i<_NumberOfCities; i++){
     best[i] = _BestCities[index_min][i];

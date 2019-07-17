@@ -102,7 +102,7 @@ void Input(void){
   igofr = 2;                                  //Indice della grandezza
   numberOfBins = 100;
   n_props = n_props + numberOfBins;
-  binSize = (box/2.0)/(double)numberOfBins;   //Grandeza dei bins  
+  binSize = (box/2.0)/(double)numberOfBins;   //Grandezza dei bins  
 
 //Read initial configuration
   cout << "Read initial configuration from file config.0 " << endl << endl;

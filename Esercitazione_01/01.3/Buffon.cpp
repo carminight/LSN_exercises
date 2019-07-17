@@ -65,14 +65,14 @@ double Buffon::Sin_Angle(){
 	//Controllo se il numero generato è all'interno della semicirconferenza
 	while((pow(x,2)+pow(y,2)) >= 1);
 
-	return y/sqrt(pow(x,2)+pow(y,2) );
+	return y/sqrt(pow(x,2)+pow(y,2));
 }
 
 double Buffon::Experiment(int NumberOfThrows){
 
 	double center;
 	double sin;
-	int NumberOfHit=0;
+	int NumberOfHit = 0;
 	double y1,y2;
 
 	for(int i=0; i< NumberOfThrows; i++){

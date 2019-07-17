@@ -187,7 +187,7 @@ void Equilibration(int numberOfequilibrationSteps){
 
 void Measure(){
 
-  double u = 0.0,s_tot=0.0;
+  double u = 0.0, s_tot=0.0;
 
 //cycle over spins
   for (int i=0; i<nspin; ++i){

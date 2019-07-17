@@ -225,7 +225,7 @@ return rays;
 
 //Metodi legati all'esercizio 08.1
 //Metodo della media 
-double Metropolis :: Integrate(Function *hamiltonian){
+double Metropolis::Integrate(Function *hamiltonian){
 
 	double sum = 0;
 

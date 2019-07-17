@@ -25,7 +25,7 @@ class Integrate{
     //Calcola l'integrale montecarlo generando numeri uniformenete distribuiti tra _LowerBound e _UpperBound suddiviso in NumberOfIntervals intervalli con in metodo della media
   	double Media(int NumberOfIntervals);
     // Calcola l'integrale con numeri uniformemente distribuiti tra 0 e 1 con p(x) = 2(1-x)
-    double MediaRetta(int N); 
+    double MediaRetta(int NumberOfIntervals); 
     // Restituisce il risultato salvato in precedenza
   	double GetResult() const; 
     void Start();
